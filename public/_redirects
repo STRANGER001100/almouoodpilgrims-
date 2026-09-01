@@ -1,0 +1,4 @@
+# SPA fallback — client-side routes (/arbaeen-program, /arbaeen-program/:id)
+# must serve index.html instead of a host 404 page.
+# Real files (images, sitemap.xml, robots.txt) are served first automatically.
+/*    /index.html   200

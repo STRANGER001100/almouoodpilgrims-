@@ -1,0 +1,87 @@
+# ---- Dependencies ----
+node_modules/
+.pnp
+.pnp.js
+jspm_packages/
+
+# ---- Build output ----
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# ---- Secrets & environment variables (NEVER COMMIT) ----
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+secrets.json
+credentials.json
+service-account*.json
+serviceAccountKey.json
+
+# ---- Private keys / certificates ----
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# ---- Cloud / deploy credentials ----
+.aws/
+.gcloud/
+.azure/
+.netlify/
+.vercel/
+.firebase/
+.firebaserc
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+
+# ---- Logs (may contain sensitive data) ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- Caches ----
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.vite/
+.turbo/
+*.tsbuildinfo
+
+# ---- Editor / OS ----
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Coverage / test output ----
+coverage/
+.nyc_output/
